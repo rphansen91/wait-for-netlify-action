@@ -60,7 +60,7 @@ jobs:
         run: |
           npm run build
       - name: Waiting for 200 from the Netlify Preview
-        uses: josephduffy/wait-for-netlify-action@v1
+        uses: archiewood/wait-for-netlify-action@v1
         id: wait-for-netflify-preview
         with:
           site_name: "YOUR_SITE_NAME"
