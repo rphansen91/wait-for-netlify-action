@@ -27,7 +27,7 @@ Basic Usage
 ```yaml
 steps:
   - name: Waiting for Netlify Preview
-    uses: josephduffy/wait-for-netlify-action@v1
+    uses: archiewood/wait-for-netlify-action@v1
     id: wait-for-netflify-preview
     with:
       site_name: "YOUR_SITE_NAME"
