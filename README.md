@@ -2,7 +2,7 @@
 
 Do you have other Github actions (Lighthouse, Cypress, etc) that depend on the Netlify Preview URL? This action will wait until the url is available before running the next task.
 
-This is a fork of [JakePartusch/wait-for-netlify-action](https://github.com/JakePartusch/wait-for-netlify-action) that uses the deployment for the commit, rather than for the PR.
+This is a fork of JosephDuffy/wait-for-netlify-action that uses the newer netlify `.app` domain rather than `.com` which is legacy.
 
 ## Inputs
 
