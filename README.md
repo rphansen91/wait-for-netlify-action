@@ -8,7 +8,7 @@ This is a fork of [JakePartusch/wait-for-netlify-action](https://github.com/Jake
 
 ### `site_name`
 
-**Required** The name of the Netlify site to reach `https://{site_name}.netlify.com`
+**Required** The name of the Netlify site to reach `https://{site_name}.netlify.app`
 
 ### `max_timeout`
 
