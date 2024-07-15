@@ -20,7 +20,7 @@ const run = async () => {
   try {
     //const commit = github.context.payload.pull_request.head.sha;
     const PR_NUMBER = github.context.payload.number;
-    const MAX_TIMEOUT = Number(core.getInput("timeout")) || 60;
+    const MAX_TIMEOUT = Number(core.getInput("max_timeout")) || 60;
     const siteName = core.getInput("site_name");
     if (!siteName) {
       core.setFailed("Required field `site_name` was not provided");
